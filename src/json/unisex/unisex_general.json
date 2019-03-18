@@ -1,0 +1,64 @@
+[
+  {
+    "category": "clothes",
+    "item": "Jeans"
+  },
+  {
+    "category": "clothes",
+    "item": "T-Shirts"
+  },
+  {
+    "category": "clothes",
+    "item": "Sweaters"
+  },
+  {
+    "category": "clothes",
+    "item": "Socks"
+  },
+  {
+    "category": "clothes",
+    "item": "Sneakers"
+  },
+
+  {
+    "category": "toiletries",
+    "item": "Toothbrush"
+  },
+  {
+    "category": "toiletries",
+    "item": "Toothpaste"
+  },
+  {
+    "category": "toiletries",
+    "item": "Shampoo"
+  },
+  {
+    "category": "toiletries",
+    "item": "Showergel"
+  },
+  {
+    "category": "toiletries",
+    "item": "Hairbrush"
+  },
+
+  {
+    "category": "essentials",
+    "item": "iPhone"
+  },
+  {
+    "category": "essentials",
+    "item": "House Keys"
+  },
+  {
+    "category": "essentials",
+    "item": "iPhone Charger"
+  },
+  {
+    "category": "essentials",
+    "item": "Sunglasses"
+  },
+  {
+    "category": "essentials",
+    "item": "Wallet"
+  }
+]

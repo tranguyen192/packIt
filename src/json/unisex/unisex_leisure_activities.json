@@ -1,0 +1,171 @@
+[
+  {
+    "category": "toiletries",
+    "component": "swimming",
+    "item": "AfterSun"
+  },
+  {
+    "category": "toiletries",
+    "component": "swimming",
+    "item": "Sun Protection"
+  },
+  {
+    "category": "essentials",
+    "component": "swimming",
+    "item": "Flip Flops"
+  },
+  {
+    "category": "essentials",
+    "component": "hiking",
+    "item": "Hiking Backpack"
+  },
+  {
+    "category": "clothes",
+    "component": "hiking",
+    "item": "Hiking Shoes"
+  },
+  {
+    "category": "essentials",
+    "component": "hiking",
+    "item": "First-Aid Kit"
+  },
+  {
+    "category": "essentials",
+    "component": "hiking",
+    "item": "Map/Compass"
+  },
+  {
+    "category": "essentials",
+    "component": "hiking",
+    "item": "Multi Tool"
+  },
+
+  {
+    "category": "clothes",
+    "component": "winter sports",
+    "item": "Ski Gloves"
+  },
+  {
+    "category": "clothes",
+    "component": "winter sports",
+    "item": "Fleeces Jacket"
+  },
+  {
+    "category": "clothes",
+    "component": "winter sports",
+    "item": "Ski Pants"
+  },
+  {
+    "category": "clothes",
+    "component": "winter sports",
+    "item": "Ski Boots"
+  },
+  {
+    "category": "clothes",
+    "component": "winter sports",
+    "item": "Ski Helmet"
+  },
+
+  {
+    "category": "clothes",
+    "component": "biking",
+    "item": "Comfortable shorts"
+  },
+  {
+    "category": "clothes",
+    "component": "biking",
+    "item": "Fleece Jackets"
+  },
+  {
+    "category": "clothes",
+    "component": "biking",
+    "item": "Active Socks"
+  },
+  {
+    "category": "clothes",
+    "component": "biking",
+    "item": "Fleece Gloves"
+  },
+  {
+    "category": "essentials",
+    "component": "biking",
+    "item": "Water Bottle"
+  },
+  {
+    "category": "clothes",
+    "component": "fitness",
+    "item": "Gym Shoes"
+  },
+  {
+    "category": "clothes",
+    "component": "fitness",
+    "item": "Gym Shorts"
+  },
+  {
+    "category": "essentials",
+    "component": "fitness",
+    "item": "Small Towel"
+  },
+  {
+    "category": "essentials",
+    "component": "fitness",
+    "item": "Carry out bag"
+  },
+
+  {
+    "category": "essentials",
+    "component": "photography",
+    "item": "Camera"
+  },
+  {
+    "category": "essentials",
+    "component": "photography",
+    "item": "Lenses"
+  },
+  {
+    "category": "essentials",
+    "component": "photography",
+    "item": "Camera Bag"
+  },
+  {
+    "category": "essentials",
+    "component": "photography",
+    "item": "Memory Cards"
+  },
+  {
+    "category": "essentials",
+    "component": "photography",
+    "item": "Spare Batteries"
+  },
+
+  {
+    "category": "essentials",
+    "component": "beach",
+    "item": "Towels"
+  },
+  {
+    "category": "essentials",
+    "component": "beach",
+    "item": "Waterproof Phone Case"
+  },
+  {
+    "category": "essentials",
+    "component": "beach",
+    "item": "Underwater Digital Camera"
+  },
+  {
+    "category": "essentials",
+    "component": "sightseeing",
+    "item": "Umbrella"
+  },
+  {
+    "category": "essentials",
+    "component": "sightseeing",
+    "item": "Tissues"
+  },
+  {
+    "category": "essentials",
+    "component": "sightseeing",
+    "item": "Brochures"
+  }
+]

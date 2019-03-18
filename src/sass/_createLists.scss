@@ -1,0 +1,155 @@
+// h2 {
+//   font-size: 1em;
+//   padding: 15px 80px;
+// }
+
+.list-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  background-color: $logoblue;
+  border: none;
+  border-radius: 0.75em;
+  padding: 15px 0;
+  width: 90%;
+  color: white;
+}
+
+.warning {
+  color: red;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.userInput {
+  //margin: 5px;
+}
+
+// #inputFieldSet {
+//   flex-direction: row;
+// }
+
+// input {
+//   padding-left: 5px;
+// }
+
+.list .list-styling {
+  padding: 15px 50px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+// .button {
+//   color: r$darkgrey;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-family: 'Josefin Sans', sans-serif;
+//   text-transform: uppercase;
+//   background-color: $lightgrey;
+//   border: none;
+//   border-radius: 0.75em;
+//   padding: 10px 15px;
+//   font-size: 0.75em;
+//   cursor: pointer;
+// }
+
+.button:hover {
+  background-color: $logoblue;
+  color: white;
+}
+
+.list {
+  width: 100%;
+  // display: none;
+}
+
+.fa-trash-alt {
+  color: red;
+  cursor: pointer;
+}
+
+.fa-suitcase,
+.fa-cart-arrow-down,
+.fa-clipboard-list {
+  color: $logoblue;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.fa-check-circle {
+  color: rgb(200, 200, 200);
+  padding-right: 10px;
+}
+
+.fas.fa-check-circle {
+  color: green;
+}
+
+// i {
+//   cursor: pointer;
+// }
+
+.list .list-styling {
+  display: flex;
+}
+
+.list-styling {
+  justify-content: space-between;
+  // flex-wrap: wrap;
+}
+
+.add-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: $spacing;
+  max-height: 80px;
+  padding-left: 50px;
+  margin-right: 10px;
+
+  button {
+    margin: 0;
+  }
+}
+
+.add-item input {
+  width: calc(80%-10px);
+  margin-right: 10px;
+}
+
+// .listerror {
+//   display: flex;
+//   align-items: center;
+// }
+
+.list-1__flex {
+  display: flex;
+}
+
+.all-lists .button {
+  margin: 0;
+}
+
+@media screen and (max-width: 603px) {
+  /* #textfield1,
+  #textfield2,
+  #textfield3,
+  #textfield4,
+  #textfield5,
+  #textfield6,
+  #textfield7 {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }*/
+}

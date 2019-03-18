@@ -1,0 +1,34 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "standard",
+        "prettier"
+    ],
+    "plugins": [
+        "prettier",
+        "babel",
+        "standard",
+        "import"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "ecmaFeatures": {
+            "experimentalDecorators": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "import/order": [
+            "warn",
+            {
+                "newlines-between": "always"
+            }
+        ],
+        "prettier/prettier": [
+            "error"
+        ]
+    },
+    "env": {
+        "browser": true
+    }
+}

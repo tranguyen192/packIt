@@ -1,0 +1,213 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  // prevent text size adjust after orientation change, without disabling user zoom
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 675px;
+  min-height: 80vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: $darkgrey;
+  padding: 10px;
+  hyphens: auto;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: $spacing * 2;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.4em;
+  color: $darkgrey;
+  max-width: 640px;
+  margin: $spacing;
+}
+
+.p--center,
+.center {
+  text-align: center;
+}
+
+a {
+  color: $darkgrey;
+  padding: 5px;
+}
+
+button,
+.button-element {
+  color: $darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $spacing;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  background-color: $lightgrey;
+  border: none;
+  border-radius: 0.75em;
+  padding: 10px $spacing;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: $logoblue;
+  color: white;
+}
+
+.button-element {
+  width: 80px;
+  height: 80px;
+  border-radius: 0.75em;
+  margin: $spacing;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  hyphens: auto;
+  background-color: $lightgrey;
+}
+
+@media screen and (max-width: 735px) {
+  .button-element {
+    margin: 10px;
+  }
+}
+
+.button-element--active {
+  background-color: $logoblue;
+  color: white;
+}
+
+header {
+  width: 100vw;
+  background-color: $lightgrey;
+  box-shadow: 0px 0.5px 15px $darkgrey;
+  z-index: 100;
+}
+
+header {
+  position: fixed;
+}
+
+footer {
+  display: flex;
+  height: 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: $lightgrey;
+  width: 100%;
+}
+
+nav {
+  width: calc(100%-30px);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+input[type='text'] {
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 1em;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 300;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: $spacing;
+}
+
+.logo {
+  font-family: Josefin Sans, sans-serif;
+  text-transform: uppercase;
+  color: #323232;
+  font-weight: 700;
+  font-size: 1.25em;
+  text-decoration: none;
+  padding: 0;
+  padding-top: 7px;
+}
+
+.logo span {
+  color: #7d8caa;
+}
+
+#nav {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  a {
+    padding: 10px;
+  }
+  .logo {
+    padding-top: 15px;
+  }
+}
+
+#warning p {
+  text-align: center;
+  color: rgb(230, 5, 5);
+}

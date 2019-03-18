@@ -1,0 +1,64 @@
+[
+  {
+    "category": "clothes",
+    "item": "Boxershorts"
+  },
+  {
+    "category": "clothes",
+    "item": "Casual Pants"
+  },
+  {
+    "category": "clothes",
+    "item": "Casual Shirts"
+  },
+  {
+    "category": "clothes",
+    "item": "Shirts"
+  },
+  {
+    "category": "clothes",
+    "item": "Light Jacket"
+  },
+
+  {
+    "category": "toiletries",
+    "item": "Razor"
+  },
+  {
+    "category": "toiletries",
+    "item": "Deodorant"
+  },
+  {
+    "category": "toiletries",
+    "item": "Perfume"
+  },
+  {
+    "category": "toiletries",
+    "item": "Shaving Foam"
+  },
+  {
+    "category": "toiletries",
+    "item": "Face Cream"
+  },
+
+  {
+    "category": "essentials",
+    "item": "Kindle Book"
+  },
+  {
+    "category": "essentials",
+    "item": "Powerbank"
+  },
+  {
+    "category": "essentials",
+    "item": "Watch"
+  },
+  {
+    "category": "essentials",
+    "item": "Vitamins"
+  },
+  {
+    "category": "essentials",
+    "item": "Medication"
+  }
+]

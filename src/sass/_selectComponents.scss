@@ -1,0 +1,14 @@
+.select-components {
+  display: flex;
+  flex-direction: row;
+  max-width: $maxWidth;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.select-components__headline {
+  width: 100%;
+}

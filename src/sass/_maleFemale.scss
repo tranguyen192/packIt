@@ -1,0 +1,18 @@
+.male-female-page {
+  display: flex;
+  height: 100%;
+  padding-bottom: 15vh;
+}
+
+.select-gender {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-gender__buttons {
+  display: flex;
+  flex-direction: row;
+}

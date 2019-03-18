@@ -1,0 +1,42 @@
+[
+  {
+    "category": "clothes",
+    "component": "work",
+    "item": "Blazer"
+  },
+  {
+    "category": "clothes",
+    "component": "work",
+    "item": "Blouses"
+  },
+  {
+    "category": "clothes",
+    "component": "business attire",
+    "item": "Skirt"
+  },
+  {
+    "category": "clothes",
+    "component": "business attire",
+    "item": "Dresses"
+  },
+  {
+    "category": "clothes",
+    "component": "formal dinner",
+    "item": "Knee-Length Dresses"
+  },
+  {
+    "category": "clothes",
+    "component": "formal dinner",
+    "item": "Small Handbag"
+  },
+  {
+    "category": "clothes",
+    "component": "business casual",
+    "item": "Twinset"
+  },
+  {
+    "category": "clothes",
+    "component": "business casual",
+    "item": "Hosiery"
+  }
+]

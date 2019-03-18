@@ -1,0 +1,102 @@
+[
+  {
+    "category": "essentials",
+    "component": "hotel",
+    "item": "Reservation"
+  },
+  {
+    "category": "essentials",
+    "component": "hotel",
+    "item": "Credit Card"
+  },
+
+  {
+    "category": "essentials",
+    "component": "rental",
+    "item": "Sheets"
+  },
+
+  {
+    "category": "essentials",
+    "component": "friends family",
+    "item": "Gifts"
+  },
+
+  {
+    "category": "essentials",
+    "component": "cruise",
+    "item": "Portable Chargers"
+  },
+  {
+    "category": "essentials",
+    "component": "cruise",
+    "item": "Seasickness Pills"
+  },
+  {
+    "category": "essentials",
+    "component": "cruise",
+    "item": "Power Strips"
+  },
+  {
+    "category": "essentials",
+    "component": "cruise",
+    "item": "Binoculars"
+  },
+
+  {
+    "category": "essentials",
+    "component": "second home",
+    "item": "Toolbox"
+  },
+
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Bug Spray"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Cooking Tools"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Headlamp"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Long Underwear"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Flashlight"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Tent"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Utility Knife"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Plastic Bags"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Pillows"
+  },
+  {
+    "category": "essentials",
+    "component": "camping",
+    "item": "Sleeping Bags"
+  }
+]

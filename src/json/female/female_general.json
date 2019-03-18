@@ -1,0 +1,63 @@
+[
+  {
+    "category": "clothes",
+    "item": "Leggins"
+  },
+  {
+    "category": "clothes",
+    "item": "Tops"
+  },
+  {
+    "category": "clothes",
+    "item": "Underwear"
+  },
+  {
+    "category": "clothes",
+    "item": "Bras"
+  },
+  {
+    "category": "clothes",
+    "item": "Pyjama"
+  },
+  {
+    "category": "toiletries",
+    "item": "Moisturizer"
+  },
+  {
+    "category": "toiletries",
+    "item": "Nail Polish"
+  },
+  {
+    "category": "toiletries",
+    "item": "Nail Clippers"
+  },
+  {
+    "category": "toiletries",
+    "item": "Facial Cleanser"
+  },
+  {
+    "category": "toiletries",
+    "item": "Make-Up Remover"
+  },
+
+  {
+    "category": "essentials",
+    "item": "Birth Control Pills"
+  },
+  {
+    "category": "essentials",
+    "item": "Hand Sanitizer"
+  },
+  {
+    "category": "essentials",
+    "item": "Hand Cream"
+  },
+  {
+    "category": "essentials",
+    "item": "Headache Pills"
+  },
+  {
+    "category": "essentials",
+    "item": "Jewelry"
+  }
+]

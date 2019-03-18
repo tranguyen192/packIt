@@ -1,0 +1,53 @@
+[
+  {
+    "category": "clothes",
+    "component": "formal dinner",
+    "item": "Suit & Tie"
+  },
+  {
+    "category": "clothes",
+    "component": "work",
+    "item": "Shirts"
+  },
+  {
+    "category": "clothes",
+    "component": "work",
+    "item": "Suit Trousers"
+  },
+  {
+    "category": "clothes",
+    "component": "work",
+    "item": "Dress Shoes"
+  },
+  {
+    "category": "clothes",
+    "component": "business attire",
+    "item": "Coat"
+  },
+  {
+    "category": "clothes",
+    "component": "business attire",
+    "item": "Belts"
+  },
+  {
+    "category": "clothes",
+    "component": "business attire",
+    "item": "Scarfs"
+  },
+
+  {
+    "category": "clothes",
+    "component": "business casual",
+    "item": "Dark Socks"
+  },
+  {
+    "category": "clothes",
+    "component": "business casual",
+    "item": "Dress Shoes"
+  },
+  {
+    "category": "clothes",
+    "component": "business casual",
+    "item": "Chinos"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "category": "essentials",
+    "component": "airplane",
+    "item": "Boarding Passes"
+  },
+  {
+    "category": "essentials",
+    "component": "airplane",
+    "item": "Eye Masks"
+  },
+  {
+    "category": "essentials",
+    "component": "airplane",
+    "item": "Neck Pillows"
+  },
+  {
+    "category": "essentials",
+    "component": "airplane",
+    "item": "Passport / ID"
+  },
+  {
+    "category": "essentials",
+    "component": "airplane",
+    "item": "Headphones"
+  },
+
+  {
+    "category": "essentials",
+    "component": "car",
+    "item": "Car Keys"
+  },
+  {
+    "category": "essentials",
+    "component": "car",
+    "item": "Car Papers"
+  },
+  {
+    "category": "essentials",
+    "component": "car",
+    "item": "Driver's License"
+  },
+  {
+    "category": "essentials",
+    "component": "car",
+    "item": "Water Bottle"
+  },
+
+  {
+    "category": "essentials",
+    "component": "motorcycling",
+    "item": "Ear Plugs"
+  },
+  {
+    "category": "essentials",
+    "component": "motorcycling",
+    "item": "Helmet"
+  },
+  {
+    "category": "clothes",
+    "component": "motorcycling",
+    "item": "Motorcycle Boots"
+  },
+  {
+    "category": "clothes",
+    "component": "motorcycling",
+    "item": "Rain Gear"
+  },
+  {
+    "category": "essentials",
+    "component": "motorcycling",
+    "item": "Waterproof Pouch"
+  },
+  {
+    "category": "clothes",
+    "component": "motorcycling",
+    "item": "Motorcycling Pants"
+  },
+  {
+    "category": "clothes",
+    "component": "motorcycling",
+    "item": "Motorcycling Jackets"
+  },
+  {
+    "category": "essentials",
+    "component": "motorcycling",
+    "item": "Motorcycling Papers"
+  },
+  {
+    "category": "clothes",
+    "component": "motorcycling",
+    "item": "Motorcycling Gloves"
+  },
+  {
+    "category": "essentials",
+    "component": "motorcycling",
+    "item": "Motorcycle GPS"
+  },
+
+  {
+    "category": "essentials",
+    "component": "boat",
+    "item": "Boat Tickets"
+  },
+  {
+    "category": "essentials",
+    "component": "boat",
+    "item": "Sunscreen"
+  },
+  {
+    "category": "essentials",
+    "component": "boat",
+    "item": "Seasickness Pills"
+  },
+
+  {
+    "category": "essentials",
+    "component": "bus",
+    "item": "Road Sickness Pills"
+  }
+]

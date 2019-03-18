@@ -1,0 +1,37 @@
+[
+  {
+    "category": "clothes",
+    "component": "swimming",
+    "item": "Bikini"
+  },
+  {
+    "category": "clothes",
+    "component": "swimming",
+    "item": "Bikini"
+  },
+  {
+    "category": "toiletries",
+    "component": "beach",
+    "item": "Leave-In Hair Conditioner"
+  },
+  {
+    "category": "clothes",
+    "component": "fitness",
+    "item": "Sport Bra"
+  },
+  {
+    "category": "essentials",
+    "component": "beach",
+    "item": "Swimsuits Cover Up"
+  },
+  {
+    "category": "clothes",
+    "component": "sightseeing",
+    "item": "Cardigans"
+  },
+  {
+    "category": "toiletries",
+    "component": "sightseeing",
+    "item": "Lotions"
+  }
+]

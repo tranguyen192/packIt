@@ -1,0 +1,43 @@
+[
+  {
+    "category": "essentials",
+    "component": "baby",
+    "item": "Baby Front Carrier"
+  },
+  {
+    "category": "essentials",
+    "component": "baby",
+    "item": "Baby Clothes"
+  },
+  {
+    "category": "essentials",
+    "component": "baby",
+    "item": "Baby Lotion"
+  },
+  {
+    "category": "essentials",
+    "component": "baby",
+    "item": "Baby Bottle & Nipples"
+  },
+  {
+    "category": "essentials",
+    "component": "baby",
+    "item": "Blankets"
+  },
+
+  {
+    "category": "essentials",
+    "component": "dog",
+    "item": "Food and Water"
+  },
+  {
+    "category": "essentials",
+    "component": "dog",
+    "item": "Seat Covers and Blankets"
+  },
+  {
+    "category": "essentials",
+    "component": "dog",
+    "item": "Dog Leash"
+  }
+]
