@@ -1,15 +1,14 @@
-import WelcomePage from './WelcomePage'
-import MaleFemalePage from './MaleFemalePage'
-import CurrentTripsPage from './CurrentTripsPage'
-import CreateNewTripPage from './CreateNewTripPage'
-import SelectComponentsPage from './SelectComponentsPage'
-import ListsPage from './ListsPage'
-import NotFoundPage from './NotFoundPage'
-import LegalNoticePage from './LegalNoticePage'
+import WelcomePage from './pages/WelcomePage'
+import MaleFemalePage from './pages/MaleFemalePage'
+import CurrentTripsPage from './pages/CurrentTripsPage'
+import CreateNewTripPage from './pages/CreateNewTripPage'
+import SelectComponentsPage from './pages/SelectComponentsPage'
+import ListsPage from './pages/ListsPage'
+import NotFoundPage from './pages/NotFoundPage'
+import LegalNoticePage from './pages/LegalNoticePage'
 
-export default class PackIt {
+export default class Routing {
   constructor() {
-    this.test = 'PackIt'
     this.pages = {
       '/': new WelcomePage(),
       '/male-female': new MaleFemalePage(),

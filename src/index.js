@@ -1,7 +1,7 @@
 import './sass/style.scss'
-import PackIt from './js/PackIt'
+import Routing from './js/Routing'
 
-const packIt = new PackIt()
+const routing = new Routing()
 
 const renderPage = path => {
   // ========= NAV ===========
@@ -33,7 +33,7 @@ const renderPage = path => {
   // ========= END ===========
 
   const root = document.getElementById('root')
-  packIt.render(path, root)
+  routing.render(path, root)
 }
 
 window.addEventListener(

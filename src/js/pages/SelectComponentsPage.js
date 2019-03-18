@@ -1,5 +1,6 @@
-import * as GlobalFunctions from './GlobalFunctions'
-import Items from './Items'
+import * as GlobalFunctions from '../functions/GlobalFunctions'
+import Items from '../functions/Items'
+
 export default class SelectComponentsPage {
   render(source, parent) {
     let data = {}

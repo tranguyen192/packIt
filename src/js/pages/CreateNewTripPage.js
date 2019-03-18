@@ -1,6 +1,7 @@
 import Datepickk from 'datepickk/dist/datepickk.js'
 
-import * as GlobalFunctions from './GlobalFunctions'
+import * as GlobalFunctions from '../functions/GlobalFunctions'
+
 export default class CreateTripDataPage {
   render(source, parent) {
     parent.innerHTML = ''

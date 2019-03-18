@@ -1,4 +1,5 @@
-import * as GlobalFunctions from './GlobalFunctions'
+import * as GlobalFunctions from '../functions/GlobalFunctions'
+
 export default class LegalNoticePage {
   render(source, parent) {
     parent.innerHTML = ''

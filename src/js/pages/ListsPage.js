@@ -1,8 +1,8 @@
 import Handlebars from 'handlebars/dist/handlebars.min.js'
 
-import * as GlobalFunctions from './GlobalFunctions'
-import CreateToDo from './FunctionsToDo'
-import CreateToBuyToPack from './FunctionsToBuyToPack'
+import * as GlobalFunctions from '../functions/GlobalFunctions'
+import CreateToDo from '../functions/FunctionsToDo'
+import CreateToBuyToPack from '../functions/FunctionsToBuyToPack'
 
 // Import Handlebars to use it in JavaScript
 
@@ -86,18 +86,6 @@ export default class ListsPage {
 
       let suitcase = document.createElement('i')
       ToPackButton.appendChild(suitcase)
-
-      // Animate list buttons
-      //= ==========================================================
-
-      // let acc = document.getElementsByClassName('list-type')
-      // console.log(acc)
-      // for (let i = 0; i < acc.length; i++) {
-      //   acc[i].onclick = function() {
-      //     this.classList.toggle('active')
-      //     this.nextElementSibling.classList.toggle('show')
-      //   }
-      // }
 
       //= ==========================================================
 

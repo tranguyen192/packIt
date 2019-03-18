@@ -1,6 +1,6 @@
-import packitlogo from '../images/packitlogo.svg'
+import packitlogo from '../../images/packitlogo.svg'
 
-import * as GlobalFunctions from './GlobalFunctions'
+import * as GlobalFunctions from '../functions/GlobalFunctions'
 
 export default class WelcomePage {
   render(source, parent) {

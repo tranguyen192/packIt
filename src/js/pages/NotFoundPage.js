@@ -1,4 +1,5 @@
-import * as GlobalFunctions from './GlobalFunctions'
+import * as GlobalFunctions from '../functions/GlobalFunctions'
+
 export default class NotFound {
   static render(source, parent) {
     parent.innerHTML = ''
