@@ -4,7 +4,6 @@ export default class MaleFemalePage {
   render(source, parent) {
     parent.innerHTML = ''
 
-    // show navItemBack
     GlobalFunctions.showBackButton()
 
     let currentPage = document.createElement('h1')
@@ -56,7 +55,6 @@ export default class MaleFemalePage {
   }
 
   SaveGenderAndNavigate(gender) {
-    // Put the gender string to the storage
     localStorage.setItem('gender', gender)
     history.pushState({ page: 1 }, '', '/current-trips')
   }

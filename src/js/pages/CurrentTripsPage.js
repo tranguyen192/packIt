@@ -4,27 +4,23 @@ export default class CurrentTripsPage {
   render(source, parent) {
     parent.innerHTML = ''
 
-    // Check if all needed variables are set
     if (localStorage.getItem('gender') === null) {
       history.pushState({}, '', '/male-female')
     } else {
-      // hide navItemBack
       GlobalFunctions.hideBackButton()
 
       let currentPage = document.createElement('h1')
       currentPage.appendChild(document.createTextNode('Current Trips'))
       parent.appendChild(currentPage)
 
-      // Check if keyManager exists on the localStorage
       if (localStorage.getItem('keyManager') !== null) {
         let keyManager = JSON.parse(localStorage.getItem('keyManager'))
         let index = 1
-        // Go through all trips in the keyManager
+
         for (let i = 0; i < keyManager.length; i++) {
           let tripKey = keyManager[i]
-          // Check if trip data exist
+
           if (localStorage.getItem('data_' + tripKey) !== null) {
-            // Check if trip lists exist
             if (localStorage.getItem('lists_' + tripKey) !== null) {
               let mediaBlock = this.ShowTrip(
                 JSON.parse(localStorage.getItem('data_' + tripKey), tripKey),
@@ -35,18 +31,16 @@ export default class CurrentTripsPage {
               )
               parent.append(mediaBlock)
             } else {
-              // remove data from local storage
               localStorage.removeItem('data_' + tripKey)
-              // remove Key from keyManager
+
               let index = keyManager.indexOf(tripKey)
               if (index > -1) {
                 keyManager.splice(index, 1)
               }
-              // Put the current state of the keyManager on the local storage
+
               localStorage.setItem('keyManager', JSON.stringify(keyManager))
             }
           } else {
-            // remove lists from local storage
             if (localStorage.getItem('lists_' + tripKey) !== null) {
               localStorage.removeItem('lists_' + tripKey)
             }
@@ -54,7 +48,7 @@ export default class CurrentTripsPage {
             if (index > -1) {
               keyManager.splice(index, 1)
             }
-            // Put the current state of the keyManager on the local storage
+
             localStorage.setItem('keyManager', JSON.stringify(keyManager))
           }
         }
@@ -145,7 +139,7 @@ export default class CurrentTripsPage {
     if (index > -1) {
       keyManager.splice(index, 1)
     }
-    // Put the current state of the keyManager on the local storage
+
     localStorage.setItem('keyManager', JSON.stringify(keyManager))
   }
 

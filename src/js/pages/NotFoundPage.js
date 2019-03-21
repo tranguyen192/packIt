@@ -4,7 +4,6 @@ export default class NotFound {
   static render(source, parent) {
     parent.innerHTML = ''
 
-    // show navItemBack
     GlobalFunctions.showBackButton()
 
     let linksText = document.createElement('p')

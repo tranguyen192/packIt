@@ -6,7 +6,6 @@ export default class WelcomePage {
   render(source, parent) {
     parent.innerHTML = ''
 
-    // hide navItemBack
     GlobalFunctions.hideBackButton()
 
     let getStartedButton = document.createElement('button')

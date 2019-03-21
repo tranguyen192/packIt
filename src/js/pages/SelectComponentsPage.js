@@ -27,7 +27,6 @@ export default class SelectComponentsPage {
       let items = new Items(localStorage.getItem('gender'), kindOfTrip)
       let selectedComponents = []
 
-      // Check if all needed variables are set
       if (localStorage.getItem('gender') === null) {
         history.pushState({}, '', '/male-female')
       } else {
@@ -38,7 +37,6 @@ export default class SelectComponentsPage {
 
         parent.innerHTML = ''
 
-        // show navItemBack
         GlobalFunctions.showBackButton()
 
         let currentPage = document.createElement('h1')
@@ -82,7 +80,6 @@ export default class SelectComponentsPage {
           lists.toDos = tripToDos
           lists.items = tripItems
 
-          // Put the trip object back to the storage
           localStorage.setItem('lists_' + tripKey, JSON.stringify(lists))
           history.pushState({ page: 1 }, '', '/current-trips')
         }

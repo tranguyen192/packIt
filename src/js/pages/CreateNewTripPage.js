@@ -13,17 +13,13 @@ export default class CreateTripDataPage {
       leisure: false,
     }
 
-    // Check if all needed variables are set
     if (localStorage.getItem('gender') === null) {
       history.pushState({}, '', '/male-female')
     } else {
-      // show navItemBack
       GlobalFunctions.showBackButton()
 
-      // Initialize datepicker
       var datepicker = new Datepickk()
 
-      // Allows to select a range of two dates
       datepicker.range = true
 
       let currentPage = document.createElement('h1')
@@ -75,16 +71,13 @@ export default class CreateTripDataPage {
           let keyManager
           let tripKey
 
-          // If keyManager does not exist on the localStorage
           if (
             localStorage.getItem('keyManager') === null ||
             localStorage.getItem('keyManager') === '[]'
           ) {
             keyManager = [0]
             tripKey = 0
-          }
-          // If keyManager exist check lastTripKey
-          else {
+          } else {
             keyManager = JSON.parse(localStorage.getItem('keyManager'))
             let lastTripKey = parseInt(keyManager[keyManager.length - 1])
             tripKey = lastTripKey + 1
@@ -105,13 +98,8 @@ export default class CreateTripDataPage {
 
           tripData.dates = dates
 
-          // Put the data object on the local storage and save it with the tripKey
           localStorage.setItem('data_' + tripKey, JSON.stringify(tripData))
-
-          // Put the current state of the keyManager on the local storage
           localStorage.setItem('keyManager', JSON.stringify(keyManager))
-
-          // Go to the nex page
           history.pushState({ page: 1 }, '', '/select-components')
         } else {
           let oldWarning = document.getElementById('warning')
@@ -175,7 +163,6 @@ export default class CreateTripDataPage {
       parent.appendChild(tripNameFieldset)
       parent.appendChild(calendar)
 
-      // Displays the date picker into a specific container
       datepicker.container = document.getElementById('calendar')
 
       datepicker.show()
